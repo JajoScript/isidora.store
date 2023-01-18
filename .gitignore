@@ -1,0 +1,6 @@
+# Dependencias.
+node_modules/
+pnpm-lock.yaml
+
+# Compilaciones.
+.next/
