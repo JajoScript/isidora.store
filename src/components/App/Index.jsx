@@ -1,7 +1,8 @@
 // Dependencias.
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import IndexContainer from "../../containers/Index";
+import IndexContainer from "../../containers/Index/IndexContainer.jsx";
+import Navbar from "../../components/Navbar/Index.jsx";
 
 // Definición del componente: <App />
 function App(props) {
@@ -11,6 +12,8 @@ function App(props) {
   // 4. Render.
   return (
     <React.Fragment>
+      <Navbar />
+
       <Routes>
         <Route path="/" element={<IndexContainer />} />
       </Routes>

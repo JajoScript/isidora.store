@@ -1,6 +1,6 @@
 // Dependencias.
 import React from "react";
-import IndexPage from "../../pages/Index/Index.jsx";
+import IndexPage from "../../pages/Index/IndexPage.jsx";
 
 // Definición del contendor: <IndexContainer />.
 function IndexContainer(props) {
