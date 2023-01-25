@@ -2,6 +2,5 @@
 node_modules/
 pnpm-lock.yaml
 
-# Compilaciones.
-.next/
-dist/
+# Variables de entorno.
+.env
