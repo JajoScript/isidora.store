@@ -54,6 +54,11 @@
   color: var(--color-black);
 }
 
+.NavbarContainer_linksContainer-btn:hover {
+  background-color: var(--color-primary-200);
+  padding: 0.25rem 0.5rem;
+}
+
 .NavbarContainer_linksContainer-btn:active {
   background-color: var(--color-primary-200);
   padding: 0.25rem 0.5rem;

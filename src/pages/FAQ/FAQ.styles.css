@@ -1,0 +1,52 @@
+.FAQPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  width: auto;
+
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+
+  border: 0.125rem dashed var(--color-secondary-200);
+  border-radius: 0.5rem;
+}
+
+.FAQPage_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.FAQPage_badge {
+  font-size: 0.8rem;
+  font-weight: 500;
+
+  background-color: var(--color-primary-100);
+  color: var(--color-black);
+
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.FAQPage_icon {
+  font-size: 3rem;
+  color: var(--color-primary-800);
+}
+
+/* ===== MEDIA QUERIES (MEDIUM DEVICE / TABLET ) ===== */
+@media screen and (max-width: 1024px) {
+}
+
+/* ===== MEDIA QUERIES (SMALL DEVICE / PHONE ) ===== */
+@media screen and (max-width: 600px) {
+  .FAQPage {
+    height: 55vh;
+  }
+
+  .FAQPage_icon {
+    font-size: 2rem;
+  }
+}

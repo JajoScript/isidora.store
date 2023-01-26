@@ -1,16 +1,17 @@
 // Dependencias.
 import React from "react";
+import DashboardPage from "../../pages/Dashboard/Dashboard";
 
-const DashBoardContainer = (props: any) => {
+// Props.
+interface Props {}
+
+// Definición del contenedor: <DashBoardContainer />
+const DashBoardContainer = (props: Props) => {
   // 1. Manejo del estado.
   // 2. Ciclo de vida.
   // 3. Metodos.
   // 4. Render
-  return (
-    <section>
-      <p>DASHBOARD</p>
-    </section>
-  );
+  return <DashboardPage />;
 };
 
 // Proptypes.

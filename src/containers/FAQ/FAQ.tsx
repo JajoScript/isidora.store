@@ -1,16 +1,17 @@
 // Dependencias.
 import React from "react";
+import FAQPage from "../../pages/FAQ/FAQ";
 
-const FAQContainer = (props: any) => {
+// Props.
+interface Props {}
+
+// Definición del contenedor: <FAQContainer />
+const FAQContainer = (props: Props) => {
   // 1. Manejo del estado.
   // 2. Ciclo de vida.
   // 3. Metodos.
   // 4. Render
-  return (
-    <section>
-      <h1>FAQ</h1>
-    </section>
-  );
+  return <FAQPage />;
 };
 
 // Proptypes.
