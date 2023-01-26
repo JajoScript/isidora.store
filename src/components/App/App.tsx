@@ -1,7 +1,13 @@
 // Dependencias.
 import React from "react";
+import { Routes, Route } from "react-router-dom";
+import DashBoardContainer from "../../containers/Dashboard/Dashboard";
+import FAQContainer from "../../containers/FAQ/FAQ";
+import RecetasContainer from "../../containers/Recetas/Recetas";
 
 // Estilos.
+// ...
+
 // Definición del componente: <App />.
 function App(props: any) {
   // 1. Manejo del estado.
@@ -10,7 +16,11 @@ function App(props: any) {
   // 4. Render
   return (
     <React.Fragment>
-      <h1>Isi page</h1>
+      <Routes>
+        <Route path="/" element={<DashBoardContainer />} />
+        <Route path="/recetas" element={<RecetasContainer />} />
+        <Route path="/faq" element={<FAQContainer />} />
+      </Routes>
     </React.Fragment>
   );
 }
