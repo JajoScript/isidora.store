@@ -1,4 +1,72 @@
 /* ===== MEDIA QUERIES (LARGE DEVICE ) ===== */
+.FooterContainer {
+  background-color: var(--color-primary-100);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 0.5rem;
+
+  padding: 1rem 1rem;
+
+  border-top: 0.25rem solid var(--color-primary-300);
+}
+
+/* -- Text info -- */
+.FooterContainer_textContainer {
+  width: 100%;
+}
+
+.FooterContainer_textContainer p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-primary-800);
+
+  text-align: center;
+}
+
+/* -- Quote -- */
+.FooterContainer_QuoteContainer {
+  width: 100%;
+}
+
+.FooterContainer_QuoteContainer p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: italic;
+
+  color: var(--color-primary-800);
+
+  background-color: var(--color-primary-200);
+  border-left: 0.25rem solid var(--color-primary-800);
+
+  text-align: left;
+
+  padding: 1rem 0.5rem;
+}
+
+/* -- Social media -- */
+.FooterContainer_RRSSContainer {
+  margin-top: 1rem;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.FooterContainer_RRSSContainer-icon {
+  font-size: 2rem;
+  color: var(--color-primary-800);
+}
+
+.FooterContainer_RRSSContainer-icon:hover {
+  color: var(--color-primary-400);
+}
 
 /* ===== MEDIA QUERIES (MEDIUM DEVICE / TABLET ) ===== */
 @media screen and (max-width: 1024px) {
@@ -6,4 +74,11 @@
 
 /* ===== MEDIA QUERIES (SMALL DEVICE / PHONE ) ===== */
 @media screen and (max-width: 600px) {
+  .FooterContainer {
+    padding: 1rem 1rem;
+  }
+
+  .FooterContainer_textContainer p {
+    font-size: 0.9rem;
+  }
 }
