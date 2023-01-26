@@ -8,7 +8,7 @@ const DashBoardContainer = (props: any) => {
   // 4. Render
   return (
     <section>
-      <h1>DASHBOARD</h1>
+      <p>DASHBOARD</p>
     </section>
   );
 };

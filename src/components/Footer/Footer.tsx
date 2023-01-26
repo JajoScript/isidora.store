@@ -5,8 +5,11 @@ import { FaInstagram, FaFacebookF, FaSpotify, FaTwitter } from "react-icons/fa";
 // Estilos.
 import "./Footer.styles.css";
 
+// Props.
+interface Props {}
+
 // Definición del componente: <Footer />.
-const Footer = (props: any) => {
+const Footer = (props: Props) => {
   // 1. Manejo del estado.
   const {} = props;
 

@@ -10,8 +10,11 @@ import Footer from "../Footer/Footer";
 // Estilos.
 // ...
 
+// Props.
+interface Props {}
+
 // Definición del componente: <App />.
-function App(props: any) {
+function App(props: Props) {
   // 1. Manejo del estado.
   // 2. Ciclo de vida.
   // 3. Metodos.
