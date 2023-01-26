@@ -1,0 +1,9 @@
+/* ===== MEDIA QUERIES (LARGE DEVICE ) ===== */
+
+/* ===== MEDIA QUERIES (MEDIUM DEVICE / TABLET ) ===== */
+@media screen and (max-width: 1024px) {
+}
+
+/* ===== MEDIA QUERIES (SMALL DEVICE / PHONE ) ===== */
+@media screen and (max-width: 600px) {
+}

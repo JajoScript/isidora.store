@@ -4,6 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import DashBoardContainer from "../../containers/Dashboard/Dashboard";
 import FAQContainer from "../../containers/FAQ/FAQ";
 import RecetasContainer from "../../containers/Recetas/Recetas";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 // Estilos.
 // ...
@@ -16,11 +18,15 @@ function App(props: any) {
   // 4. Render
   return (
     <React.Fragment>
+      <Navbar />
+
       <Routes>
         <Route path="/" element={<DashBoardContainer />} />
         <Route path="/recetas" element={<RecetasContainer />} />
         <Route path="/faq" element={<FAQContainer />} />
       </Routes>
+
+      <Footer />
     </React.Fragment>
   );
 }

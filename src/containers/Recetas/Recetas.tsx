@@ -7,9 +7,9 @@ const RecetasContainer = (props: any) => {
   // 3. Metodos.
   // 4. Render
   return (
-    <React.Fragment>
-      <h1>RECETAS</h1>
-    </React.Fragment>
+    <section>
+      <h1>Recetas</h1>
+    </section>
   );
 };
 

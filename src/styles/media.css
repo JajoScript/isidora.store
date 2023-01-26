@@ -4,10 +4,29 @@
   --container-width-sm: 90%;
 }
 
+/* ===== MEDIA QUERIES (LARGE DEVICE ) ===== */
+section {
+  width: var(--container-width-lg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
+
 /* ===== MEDIA QUERIES (MEDIUM DEVICE / TABLET ) ===== */
 @media screen and (max-width: 1024px) {
+  section {
+    width: var(--container-width-md);
+  }
 }
 
 /* ===== MEDIA QUERIES (SMALL DEVICE / PHONE ) ===== */
 @media screen and (max-width: 600px) {
+  section {
+    width: var(--container-width-sm);
+  }
 }

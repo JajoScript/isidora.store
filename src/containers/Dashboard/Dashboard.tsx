@@ -7,9 +7,9 @@ const DashBoardContainer = (props: any) => {
   // 3. Metodos.
   // 4. Render
   return (
-    <React.Fragment>
+    <section>
       <h1>DASHBOARD</h1>
-    </React.Fragment>
+    </section>
   );
 };
 

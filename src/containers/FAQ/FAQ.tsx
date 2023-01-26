@@ -7,9 +7,9 @@ const FAQContainer = (props: any) => {
   // 3. Metodos.
   // 4. Render
   return (
-    <React.Fragment>
+    <section>
       <h1>FAQ</h1>
-    </React.Fragment>
+    </section>
   );
 };
 
