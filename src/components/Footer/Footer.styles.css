@@ -11,6 +11,10 @@
   padding: 1rem 1rem;
 
   border-top: 0.25rem solid var(--color-primary-300);
+
+  width: 100%;
+  position: relative;
+  bottom: 0;
 }
 
 /* -- Text info -- */
@@ -34,8 +38,7 @@
 .FooterContainer_QuoteContainer p {
   font-family: "Poppins";
   font-weight: 400;
-  font-style: italic;
-  font-size: 1.1rem;
+  font-size: 1rem;
 
   color: var(--color-primary-800);
 
@@ -86,6 +89,6 @@
 
   /* -- Quote -- */
   .FooterContainer_QuoteContainer p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }

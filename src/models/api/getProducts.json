@@ -1,0 +1,76 @@
+{
+  "error": false,
+  "success": true,
+  "message": "ok",
+  "status": 200,
+  "data": {
+    "products": [
+      {
+        "productInfo": {
+          "id": "A0001",
+          "name": "Galletas de arroz con chocolate de leche",
+          "brand": "Kupiec",
+          "price": 2099,
+          "description": "Galletas de arroz sabor chocolate, baja en calorías, sin lactosa, vegano, huevos ni gluten. Producto sin gluten certificado por fundación convivir. Producto certificado Kosher.",
+          "ingredients": "Azúcar, Manteca de cacao, Leche entera en polvo, Chocolate no edulcorado, Grasa de leche anhidra, Lecitina de soja, Polirricinoleato de poliglicerol, Aroma de vainilla natural, Arroz integral, Arroz blanco",
+          "image": "https://www.jumbo.cl/"
+        },
+        "isidorasRate": {
+          "stars": 5,
+          "comment": "Muy ricas, las recomiendo."
+        },
+        "stores": [
+          {
+            "id": "JUMBO",
+            "name": "JUMBO",
+            "image": "https://www.jumbo.cl/"
+          }
+        ]
+      },
+      {
+        "productInfo": {
+          "id": "A0002",
+          "name": "Galletas de arroz chocolate chips",
+          "brand": "Kupiec",
+          "price": 2699,
+          "description": "Deliciosas galletas, ideales para compartir gratos momentos con amigos y familiares.",
+          "ingredients": "",
+          "image": "https://www.jumbo.cl/"
+        },
+        "isidorasRate": {
+          "stars": 5,
+          "comment": "Muy ricas, las recomiendo."
+        },
+        "stores": [
+          {
+            "id": "JUMBO",
+            "name": "JUMBO",
+            "image": "https://www.jumbo.cl/"
+          }
+        ]
+      },
+      {
+        "productInfo": {
+          "id": "A0003",
+          "name": "Gomitas 4D Amos con forma de bloques",
+          "brand": "Amos",
+          "price": 1240,
+          "description": "Gomitas 4D Amos con forma de bloques 100 g.",
+          "ingredients": "Jarabe de glucosa, Azúcar, Agua, Gelatina, Glicerol, Ácido cítrico, Jugo concentrado de arándanos, Jugo concentrado de frutilla, Jugo concentrado de limón, Jugo concentrado de manzana, Ácido málico, Saborizante artificial, Aceite de coco, Pectina, Cera carnauba, Tartrazina, Rojo allura ac, Azul brillante fcf, Sulfitos.",
+          "image": "https://www.unimarc.cl/"
+        },
+        "isidorasRate": {
+          "stars": 4,
+          "comment": "Muy ricas, las recomiendo."
+        },
+        "stores": [
+          {
+            "id": "UNIMARC",
+            "name": "UNIMARC",
+            "image": "https://www.unimarc.cl/"
+          }
+        ]
+      }
+    ]
+  }
+}

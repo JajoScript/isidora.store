@@ -1,8 +1,8 @@
 * {
   font-family: "Poppins";
   font-weight: 400;
-}
 
-::-webkit-scrollbar {
-  display: none;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-secondary-800) var(--color-white);
+  scroll-behavior: smooth;
 }

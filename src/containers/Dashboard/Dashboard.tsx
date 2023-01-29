@@ -1,5 +1,4 @@
 // Dependencias.
-import React from "react";
 import DashboardPage from "../../pages/Dashboard/Dashboard";
 
 // Props.
