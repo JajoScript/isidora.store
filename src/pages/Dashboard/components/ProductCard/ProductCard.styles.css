@@ -55,9 +55,9 @@
 
 .ProductCard_infoContainer-brand {
   font-family: "Poppins";
-  font-weight: 400;
+  font-weight: 500;
   font-size: 0.9rem;
-  color: var(--color-black);
+  color: var(--color-secondary-600);
   text-align: left;
 }
 
@@ -90,6 +90,8 @@
   }
 
   .ProductCard_infoContainer {
+    height: 100%;
+    width: 100%;
   }
 
   .ProductCard_infoContainer-name {

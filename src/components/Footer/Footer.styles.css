@@ -2,6 +2,9 @@
 .FooterContainer {
   background-color: var(--color-primary-100);
 
+  align-self: flex-end;
+  justify-self: end;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -13,6 +16,7 @@
   border-top: 0.25rem solid var(--color-primary-300);
 
   width: 100%;
+
   position: relative;
   bottom: 0;
 }
@@ -80,6 +84,7 @@
 @media screen and (max-width: 600px) {
   .FooterContainer {
     padding: 1rem 1rem;
+    position: relative;
   }
 
   /* -- Text info -- */

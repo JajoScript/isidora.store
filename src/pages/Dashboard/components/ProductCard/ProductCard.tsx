@@ -19,7 +19,6 @@ const ProductCard = (props: Props) => {
   // 2. Ciclo de vida.
   // 3. Metodos.
   // 4. Render
-  console.log("in ProductCard: ", product);
   return (
     <div className="ProductCard_container">
       {/* Product image */}

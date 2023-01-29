@@ -8,7 +8,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
 // Estilos.
-// ...
+import "./App.styles.css";
 
 // Props.
 interface Props {}
@@ -20,7 +20,7 @@ function App(props: Props) {
   // 3. Metodos.
   // 4. Render
   return (
-    <React.Fragment>
+    <section className="App_container">
       <Navbar />
 
       <Routes>
@@ -30,7 +30,7 @@ function App(props: Props) {
       </Routes>
 
       <Footer />
-    </React.Fragment>
+    </section>
   );
 }
 
