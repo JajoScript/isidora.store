@@ -14,6 +14,7 @@ interface Props {
 const ProductCard = (props: Props) => {
   // 1. Manejo del estado.
   const { product } = props;
+  const { isidorasRate, productInfo, stores } = product;
 
   // 2. Ciclo de vida.
   // 3. Metodos.
@@ -23,12 +24,19 @@ const ProductCard = (props: Props) => {
     <div className="ProductCard_container">
       {/* Product image */}
       <div className="ProductCard_imageContainer">
-        <img src="" alt="image src" className="ProductCard-image" />
+        <img
+          src={productInfo.image}
+          alt="image src"
+          loading="lazy"
+          className="ProductCard-image"
+        />
       </div>
 
       {/* Product info */}
-      <div>
-        <p>Product info</p>
+      <div className="ProductCard_infoContainer">
+        <p className="ProductCard_infoContainer-name">{productInfo.name}</p>
+        <p className="ProductCard_infoContainer-brand">{productInfo.brand}</p>
+        <p className="ProductCard_infoContainer-price">${productInfo.price}</p>
       </div>
     </div>
   );
