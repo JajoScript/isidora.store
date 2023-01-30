@@ -17,13 +17,18 @@
         },
         "isidorasRate": {
           "stars": 5,
-          "comment": "Muy ricas, las recomiendo."
+          "comment": "Las recomiendo."
         },
         "stores": [
           {
             "id": "JUMBO",
             "name": "JUMBO",
             "image": "https://www.jumbo.cl/"
+          },
+          {
+            "id": "UNIMARC",
+            "name": "UNIMARC",
+            "image": "https://www.unimarc.cl/"
           }
         ]
       },
@@ -39,13 +44,18 @@
         },
         "isidorasRate": {
           "stars": 5,
-          "comment": "Muy ricas, las recomiendo."
+          "comment": "Demasiado ricas, las recomiendo."
         },
         "stores": [
           {
             "id": "JUMBO",
             "name": "JUMBO",
             "image": "https://www.jumbo.cl/"
+          },
+          {
+            "id": "UNIMARC",
+            "name": "UNIMARC",
+            "image": "https://www.unimarc.cl/"
           }
         ]
       },
@@ -54,16 +64,21 @@
           "id": "A0003",
           "name": "Gomitas 4D Amos con forma de bloques",
           "brand": "Amos",
-          "price": 1240,
+          "price": 1199,
           "description": "Gomitas 4D Amos con forma de bloques 100 g.",
           "ingredients": "Jarabe de glucosa, Azúcar, Agua, Gelatina, Glicerol, Ácido cítrico, Jugo concentrado de arándanos, Jugo concentrado de frutilla, Jugo concentrado de limón, Jugo concentrado de manzana, Ácido málico, Saborizante artificial, Aceite de coco, Pectina, Cera carnauba, Tartrazina, Rojo allura ac, Azul brillante fcf, Sulfitos.",
           "image": "/assets/images/products/A0003.png"
         },
         "isidorasRate": {
           "stars": 4,
-          "comment": "Muy ricas, las recomiendo."
+          "comment": "Es posible hacer una casa con ellas."
         },
         "stores": [
+          {
+            "id": "JUMBO",
+            "name": "JUMBO",
+            "image": "https://www.jumbo.cl/"
+          },
           {
             "id": "UNIMARC",
             "name": "UNIMARC",

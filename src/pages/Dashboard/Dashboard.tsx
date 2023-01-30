@@ -1,5 +1,5 @@
 // Dependencias.
-import ProductCards from "./components/ProductCard/ProductCards";
+import ProductCards from "./components/ProductCards/ProductCards";
 
 // Estilos.
 import "./Dashboard.styles.css";

@@ -1,0 +1,13 @@
+.BrandsDisplay_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  column-gap: 1rem;
+}
+
+.BrandsDisplay-icon {
+  width: 5rem;
+
+  color: var(--color-primary-200);
+}

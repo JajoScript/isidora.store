@@ -5,11 +5,11 @@ import fakeData from "../../../../models/api/getProducts.json";
 import { ResponseAPI } from "../../../../models/types/ResponseAPI";
 import { Product } from "../../../../models/types/Product";
 import { ProductStore } from "../../../../models/types/ProductStore";
-import ProductCard from "./ProductCard";
+import ProductCard from "../ProductCard/ProductCard";
 
 // Estilos.
 import "./ProductCards.styles.css";
-import ProductCardsAnimate from "./animations/ProductCards.animate";
+import ProductCardsAnimate from "./ProductCards.animate";
 
 // Props.
 interface Props {}

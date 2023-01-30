@@ -7,6 +7,25 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 1rem;
+}
+
+.ProductCard_headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 0.5rem;
+}
+
+.ProductCard_bodyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+
+  width: 100%;
 }
 
 .ProductCard_imageContainer {
@@ -75,13 +94,6 @@
 /* ===== MEDIA QUERIES (SMALL DEVICE / PHONE ) ===== */
 @media screen and (max-width: 600px) {
   .ProductCard_container {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    column-gap: 1rem;
-
-    width: 100%;
-    max-width: 100%;
   }
 
   .ProductCard_imageContainer {
